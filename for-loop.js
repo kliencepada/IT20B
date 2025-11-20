@@ -12,7 +12,7 @@ for (i=1; i <= 5; i++){
 
 console.log(output);
 */
-
+/*
 output = "";
 
 for (i=5; i >= 1; i--){
@@ -20,3 +20,13 @@ for (i=5; i >= 1; i--){
 }
 
 console.log(output);
+*/
+
+reverse = " ";
+str = "cliffy";
+
+for(i=str.length-1 ; i>= 0 ; i--){
+    reverse += str[i];
+}
+
+console.log(reverse);
