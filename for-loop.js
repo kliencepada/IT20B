@@ -41,7 +41,7 @@ for(i=0; i<arr.length; i--){
 
 console.log(output);
 */
-
+/*
 output = " ";
 arr = [4,3,2];
 
@@ -50,3 +50,21 @@ for(i=arr.length-1; i>=0; i--){
 }
 
 console.log(output);
+*/
+
+arr1 = [4,2,3];
+arr2 = [6,7,4,2,0];
+arr3 = [6,9,8];
+
+function arrayTraverse(arr){
+    output = " ";
+
+    for(i=0; i<arr.length; i++){
+        output += arr[i] + " ";
+    }
+    console.log(output);
+}
+
+arrayTraverse(arr1);
+arrayTraverse(arr2);
+arrayTraverse(arr3);
