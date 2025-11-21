@@ -31,10 +31,21 @@ for(i=str.length-1 ; i>= 0 ; i--){
 
 console.log(reverse);
 */
+/*
 output = " ";
 arr = [4,3,2];
 
-for(i=0; i<arr.length; i++){
+for(i=0; i<arr.length; i--){
+   output += arr[i] + " ";
+}
+
+console.log(output);
+*/
+
+output = " ";
+arr = [4,3,2];
+
+for(i=arr.length-1; i>=0; i--){
    output += arr[i] + " ";
 }
 
