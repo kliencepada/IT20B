@@ -25,12 +25,24 @@ while(i>=1){
 
 console.log(output);
 */
-
+/*
 output = " ";
 i = 1;
 
 while(i<=5){
     output += i + " ";
+    i++;
+}
+
+console.log(output);
+*/
+
+arr = [4,2,3];
+output = " ";
+i = 0;
+
+while(i<arr.length){
+    output += arr[i] + " ";
     i++;
 }
 
