@@ -48,14 +48,3 @@ while(i<arr.length){
 
 console.log(output);
 */
-
-arr = [4,2,3];
-output = " ";
-i = 5;
-
-while(i>=arr.length){
-    output += arr[i] + " ";
-    i--;
-}
-
-console.log(output);
