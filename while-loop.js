@@ -14,13 +14,24 @@ while(i<=5){
     i++;
 }
 */
-
+/*
 output = " ";
 i = 5;
 
 while(i>=1){
     output += i + " ";
     i--;
+}
+
+console.log(output);
+*/
+
+output = " ";
+i = 1;
+
+while(i<=5){
+    output += i + " ";
+    i++;
 }
 
 console.log(output);
