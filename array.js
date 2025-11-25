@@ -73,4 +73,6 @@ class Array {
     }
 }
 
+arr1 = new Array([4,2,3]);
+
 arr1.traverse();
