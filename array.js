@@ -58,6 +58,16 @@ class Array {
 
         this.data[index] = element;
     }
+
+    search(element){
+
+        for(let i = 0; i < this.length; i++){
+            if(this.data[i] === element){
+                console.log(element + " is not foud in index " + 1);
+                return i;
+            }
+        }
+    }
 }
 
 arr1.traverse();
