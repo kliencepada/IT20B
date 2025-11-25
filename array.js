@@ -84,3 +84,6 @@ arr1.traverse();
 
 arr1.update(2,5);
 arr1.traverse();
+
+arr1.search(43);
+arr1.traverse();
