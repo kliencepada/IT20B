@@ -18,4 +18,14 @@ class Array {
         }
         console.log(output);
     }
+
+    insert(index, element){
+
+        if(index < 0 || index > this.length){
+            console.log("Invalid Index");
+            return;
+        }
+    }
 }
+
+arr1.traverse();
