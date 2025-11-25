@@ -25,6 +25,10 @@ class Array {
             console.log("Invalid Index");
             return;
         }
+
+        for(let i = this.length; i > index; i--){
+            this.data[i] = this.data[i - 1];
+        }
     }
 }
 
