@@ -55,6 +55,8 @@ class Array {
             console.log("Invalid Index");
             return;
         }
+
+        this.data[index] = element;
     }
 }
 
