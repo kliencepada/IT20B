@@ -29,6 +29,9 @@ class Array {
         for(let i = this.length; i > index; i--){
             this.data[i] = this.data[i - 1];
         }
+
+        this.data[index] = element;
+        this.length++;
     }
 }
 
