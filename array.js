@@ -40,6 +40,10 @@ class Array {
             console.log("Invalid Index"):
             return;
         }
+
+        for(let i = index; i <this.length; i++){
+            this.data[i] = this.data[i + 1];
+        }
     }
 }
 
