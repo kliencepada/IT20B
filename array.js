@@ -33,6 +33,14 @@ class Array {
         this.data[index] = element;
         this.length++;
     }
+
+    delete(index){
+
+        if(index < 0; || index > this.length){
+            console.log("Invalid Index"):
+            return;
+        }
+    }
 }
 
 arr1.traverse();
