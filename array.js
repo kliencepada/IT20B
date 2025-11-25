@@ -9,4 +9,13 @@ class Array {
             this.length++;
         }
     }
+
+    traverse(){
+        let output = " ";
+
+        for(let i = 0; i<this.length; i++){
+            output += this.data[i] + " ";
+        }
+        console.log(output);
+    }
 }
