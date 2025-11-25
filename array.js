@@ -48,6 +48,14 @@ class Array {
         delete this.data[this.length - 1];
         this.length--;
     }
+
+    update(index, element){
+
+        if(index < 0 || index > this.length){
+            console.log("Invalid Index");
+            return;
+        }
+    }
 }
 
 arr1.traverse();
