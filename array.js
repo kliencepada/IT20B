@@ -67,6 +67,9 @@ class Array {
                 return i;
             }
         }
+
+        console.log(element + " is not found at any index");
+        return -1;
     }
 }
 
